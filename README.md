@@ -49,40 +49,46 @@ Concatenate the tensor of t, dem,manning,rain and height together in the shape o
 
 The model consist of 3 Linear layers, 4 SpectralConv3d, Modulelist of [5 Conv1d] in the following order
 
+```
 (fc0): Linear(in_features=8, out_features=16, bias=True) 
+
 (sp_convs): ModuleList( (0-3): 4 x SpectralConv3d() ) 
+
 (ws): ModuleList( 
 
-(0): Conv1d(16, 24, kernel_size=(1,), stride=(1,)) 
+	(0): Conv1d(16, 24, kernel_size=(1,), stride=(1,)) 
 
-(1-2): 2 x Conv1d(24, 24, kernel_size=(1,), stride=(1,)) 
+	(1-2): 2 x Conv1d(24, 24, kernel_size=(1,), stride=(1,)) 
 
-(3): Conv1d(24, 32, kernel_size=(1,), stride=(1,)) 
+	(3): Conv1d(24, 32, kernel_size=(1,), stride=(1,)) 
 
-(4): Conv1d(32, 32, kernel_size=(1,), stride=(1,)) ) 
+	(4): Conv1d(32, 32, kernel_size=(1,), stride=(1,)) ) 
 
 (fc1): Linear(in_features=32, out_features=128, bias=True) 
+
 (fc2): Linear(in_features=128, out_features=1, bias=True)
+```
 
 Which these layers have the following description:
-1.	Linear Layer
-this layer is to transform data to a linear form: $$ y=xAt+b $$
+
+**1.Linear Layer**
+this layer is to transform data to a linear form: $$y=xAt+b$$
 which input is 
-$$ (*,Hin) where  ∗ means any number of dimensions including none and Hin=in_features. $$
+(\*,Hin) where  \∗ means any number of dimensions including none and Hin=in_features
 and output is
-$$ (*,Hout) where  all but the last dimension are the same shapes as the input and Hout=out_features$$
-2.	SpectralConv3d Layer
+(\*,Hout) where  all but the last dimension are the same shapes as the input and Hout=out_features
+
+**2.SpectralConv3d Layer**
 	this layer is applied 3D fourier transform to find Fourier coefficients:
-$$ e-i(r1q1+r2q2+r3q3)e-a2(r12+r22+r32)dr1dr2dr3= (a)1.5e-q12+q22+q324a$$
-which input is $$(in_channels, out_channels, modes1, modes2, modes3)$$
-and output is  
- $$(Fourier_coefficients1,Fourier_coefficients2,Fourier_coefficients3)$$
-
-
-3.	Conv1d Layer
-	this layer is applied to 1D convolution over an input signal composed of several input planes:$$ out(Ni ,Coutj) = bias(Coutj) + k=0Cin-1weight(Cout ,k)*input(Ni ,k) $$
-$$where * is the valid cross-correlation operator, N is a Batch size, C is a number of channels and
-L is a length of signal sequence$$
+   $$e-i(r1q1+r2q2+r3q3)e-a2(r12+r22+r32)dr1dr2dr3= (a)1.5e-q12+q22+q324a$$
+which input is (in_channels, out_channels, modes1, modes2, modes3)
+and output is (Fourier_coefficients1,Fourier_coefficients2,Fourier_coefficients3)
+ 
+**3.Conv1d Layer**
+	this layer is applied to 1D convolution over an input signal composed of several input planes:
+   $$out(Ni ,Coutj) = bias(Coutj) + k=0Cin-1weight(Cout ,k)*input(Ni ,k)$$
+where \* is the valid cross-correlation operator, N is a Batch size, C is a number of channels and
+L is a length of signal sequence
 which input layer’s size is $$(Ni,Cin,L)$$
 and output layer’s size is $$(N,Cout ,Lout)$$
 
