@@ -90,6 +90,12 @@ and output layer’s size is $$(N,Cout ,Lout)$$
 
 <h2>Results</h2>
 
+![MicrosoftTeams-image](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/2b9c110e-51cd-415d-b41b-49b3bed3cfad)
+
+![MicrosoftTeams-image (4)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/04dc5d07-b03f-4ff5-92fd-649b06809fa6)
+
+
+
 <h2>Limitations</h2>
 
 <h2>References</h2>
