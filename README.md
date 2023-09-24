@@ -22,12 +22,11 @@ In the summer monsoon season of 2022, Pakistan experienced a devastating flood e
 
 
 ![Screenshot (1373)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/4e26d4ec-064e-4e91-a788-1f9b1b0c764e)
-![Screenshot (1376)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/119694198/04be81ff-75a4-4fb8-9f8b-f5d9880b1f15)
+
 
 
 <h2>Methodology</h2>
-![MicrosoftTeams-image (5)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/687e270f-f41e-4ec8-9a44-869adf95e5d2)
-
+![Screenshot (1376)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/119694198/04be81ff-75a4-4fb8-9f8b-f5d9880b1f15)
 
 **DEM**
 
