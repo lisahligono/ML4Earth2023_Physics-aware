@@ -20,6 +20,19 @@ In the summer monsoon season of 2022, Pakistan experienced a devastating flood e
 
 <h2>Methodology</h2>
 
+Our solution is based on the Linear Regression for Neural Networks model, a powerful technique for regression tasks that combines the simplicity of linear regression with the flexibility of neural networks. Here's a brief overview of our approach:
+
+1. **Data Preparation**: 
+
+2. **Feature Engineering**: 
+
+3. **Model Development**: We designed and trained our Linear Regression for Neural Networks model, fine-tuning it to achieve optimal performance.
+
+4. **Validation**: 
+
+5. **Flood Forecasting**: With our trained model, we can now provide flood forecasts based on real-time or historical data, aiding in disaster preparedness and response.
+
+
 <h2>Results</h2>
 
 <h2>Limitations</h2>
