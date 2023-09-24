@@ -1,5 +1,6 @@
 # Introduction
 This repository is a part of our team's submission for the ML4Earth Physics-aware 2023 hackathon.
+Presentation slide: https://www.canva.com/design/DAFuwH_Hdyk/7-zK9G9zyozcZtwr0F4ONA/view?utm_content=DAFuwH_Hdyk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
 ![Screenshot (1371)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/1498bcb5-ab11-4bfe-a924-45462363b670)
 
@@ -94,6 +95,10 @@ and output layer’s size is $$(N,Cout ,Lout)$$
 
 
 <h2>Results</h2>
+
+Predicted values from our model in the range from 0.15 - 0.14 are close to ground truth values. When we visualized the predicted values as images, we found that there are high values of flood height in the west side of the area which is corressponding to the given ground truth values.
+
+For Mean Absolute Error (MAE) and Mean Absolute Percentage(MAPE), the MAE is 0.198 and MAPE is 41% from 10 training epochs.
 
 ![MicrosoftTeams-image](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/2b9c110e-51cd-415d-b41b-49b3bed3cfad)
 
