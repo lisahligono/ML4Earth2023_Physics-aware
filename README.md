@@ -111,3 +111,19 @@ and output layer’s size is $$(N,Cout ,Lout)$$
 -According to the time limitations, we needed to plan and understand all the processes but we took time to understand the provided dataset, also the model codes. But at first, it was difficult to understand and familiarize with it.
 
 <h2>References</h2>
+https://www.rnz.co.nz/news/world/473682/pakistan-floods-appeals-for-aid-as-119-more-die-in-a-day
+
+https://earthobservatory.nasa.gov/images/150279/devastating-floods-in-pakistan
+
+https://data.amerigeoss.org/id/dataset/pakistan-administrative-level-0-1-2-and-3-boundary-polygons-lines-and-central-places
+
+https://data.amerigeoss.org/id/dataset/pakistan-administrative-level-0-1-2-and-3-boundary-polygons-lines-and-central-places
+
+https://www.nationalworld.com/news/world/pakistan-floods-map-provinces-flooding-how-to-donate-dec-appeal-how-many-people-died-3822977
+
+https://math.stackexchange.com/questions/307019/3d-fourier-transform
+
+https://cryoemprinciples.yale.edu/sites/default/files/files/4%20Fourier2D-3D.pdf
+
+https://pytorch.org/docs/main/
+
