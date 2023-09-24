@@ -19,8 +19,7 @@ Meet our team members:
 <h2>Study area</h2>
 In the summer monsoon season of 2022, Pakistan experienced a devastating flood event. This flood event impacted approximately one-third of Pakistan's vast population, resulting in the displacement of around 32 million individuals and tragically causing the loss of 1,486 lives, including 530 children. The economic toll of this disaster has been estimated at exceeding $30 billion. The study area encompasses the regions in Pakistan most severely affected by the flood. The Indus River basin, a critical drainage system, plays a pivotal role in this study area's hydrology. (Adapted from https://github.com/zhu-xlab/ML4Earth-Hackathon-2023)
 
-
-![map](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/553179a1-3fbe-49b5-91e0-97b80a88ccad)
+![Screenshot (1373)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/4e26d4ec-064e-4e91-a788-1f9b1b0c764e)
 
 
 <h2>Methodology</h2>
