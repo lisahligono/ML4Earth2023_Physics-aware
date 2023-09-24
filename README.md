@@ -87,8 +87,6 @@ which input layer’s size is $$(Ni,Cin,L)$$
 and output layer’s size is $$(N,Cout ,Lout)$$
 
 
-
-
 <h2>Results</h2>
 
 ![MicrosoftTeams-image](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/2b9c110e-51cd-415d-b41b-49b3bed3cfad)
@@ -98,8 +96,18 @@ and output layer’s size is $$(N,Cout ,Lout)$$
 
 ![MicrosoftTeams-image (4)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/04dc5d07-b03f-4ff5-92fd-649b06809fa6)
 
-
-
 <h2>Limitations</h2>
+
+-We tried to connect with GPU resources from the EO-Lab but it did not work for us.
+
+-The dataset was too large and therefore required more space to load and train our model.
+
+-The GPU provided by the hackathon was barely enough and it required us to purchase extra GPU from Google Colab.
+
+-When running our models, they kept crashing repeatedly thus needed to run them over and over
+
+-We had no previous knowledge of the 2D SWE thus required a steep learning curve and we spent a lot of time developing a model that suited the problem.
+
+-According to the time limitations, we needed to plan and understand all the processes but we took time to understand the provided dataset, also the model codes. But at first, it was difficult to understand and familiarize with it.
 
 <h2>References</h2>
