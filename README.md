@@ -23,7 +23,8 @@ In the summer monsoon season of 2022, Pakistan experienced a devastating flood e
 
 
 <h2>Methodology</h2>
-<b>Data Preprocessing </b>
+![MicrosoftTeams-image (5)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/687e270f-f41e-4ec8-9a44-869adf95e5d2)
+
 
 **DEM**
 
@@ -91,6 +92,9 @@ and output layer’s size is $$(N,Cout ,Lout)$$
 <h2>Results</h2>
 
 ![MicrosoftTeams-image](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/2b9c110e-51cd-415d-b41b-49b3bed3cfad)
+
+<img width="348" alt="pred_gt" src="https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/d846960c-8103-4650-894f-b34c1f8221d8">
+
 
 ![MicrosoftTeams-image (4)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/04dc5d07-b03f-4ff5-92fd-649b06809fa6)
 
