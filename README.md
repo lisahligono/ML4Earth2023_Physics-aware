@@ -20,7 +20,7 @@ In the summer monsoon season of 2022, Pakistan experienced a devastating flood e
 
 Our solution is based on the Linear Regression for Neural Networks model, a powerful technique for regression tasks that combines the simplicity of linear regression with the flexibility of neural networks. Here's a brief overview of our approach:
 
-1. **Data Preparation**: 
+1. **Data Preparation**: Downloaded the data from
 
 2. **Feature Engineering**: 
 
