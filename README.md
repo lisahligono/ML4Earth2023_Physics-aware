@@ -1,6 +1,9 @@
 # Introduction
 This repository is a part of our team's submission for the ML4Earth Physics-aware 2023 hackathon.
 
+![Screenshot (1371)](https://github.com/lisahligono/ML4Earth2023_Physics-aware/assets/72496335/1498bcb5-ab11-4bfe-a924-45462363b670)
+
+
 ## Task Overview
 
 In this hackathon, our goal was to develop a robust flood modeling framework capable of performing at large scales using input and ground truth data from the Pakistan flood in 2022. We focused on applying supervised machine learning methods, specifically utilizing the Linear Regression for Neural Networks model, to solve the 2-D shallow water equations. Our ultimate objective was to create a flood forecast model that can provide valuable insights and predictions in the event of future floods in Pakistan.
